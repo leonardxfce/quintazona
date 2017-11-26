@@ -1,7 +1,7 @@
 
-<?php include("head.php"); ?>
+<?php require "head.php"; ?>
 
-<?php include("side.php"); ?>
+<?php require "side.php"; ?>
 
 <div class="col-10">
     <img src="bootstrap/img/rio.jpg" class="img-fluid rounded " >
@@ -9,4 +9,4 @@
     <div class="alert alert-info" role="alert">Situada en el oasis norte de la provincia de Mendoza, comprende parte de los departamentos de Lavalle y San Martin. Comprende 14,500 hectareas bajo riego.</div>
 </div>
 
-<?php include("footer.php"); ?>
+<?php require "footer.php"; ?>

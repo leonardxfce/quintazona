@@ -1,13 +1,15 @@
-<?php include("head.php"); ?>
-
-<?php include("side.php"); ?>
+<?php 
+require "head.php"; 
+require "side.php"; 
+$cuadro = $_GET['cuadro'];
+?>
 
 <div class="col-10">
 
-    <?php if ($_GET['cuadro'] == 'gustavo') { ?>
+    <?php if ($cuadro== 'gustavo') { ?>
         <iframe src="https://onedrive.live.com/embed?cid=ED0CF7A1E8872075&resid=ED0CF7A1E8872075%2157464&authkey=AK1LXCXmkmzSDNI&em=2" width="402" height="346" frameborder="0" scrolling="no"></iframe>
     <?php } ?>
-    <?php if ($_GET['cuadro'] == 'california') { ?>
+    <?php if ($cuadro == 'california') { ?>
         <iframe src="https://onedrive.live.com/embed?cid=ED0CF7A1E8872075&resid=ED0CF7A1E8872075%2157465&authkey=ADr7Gv-bEIFwHPc&em=2" width="402" height="346" frameborder="0" scrolling="no"></iframe>
     <?php } ?>
     <?php if ($_GET['cuadro'] == 'pedro') { ?>
