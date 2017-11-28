@@ -16,19 +16,19 @@ $urlFolder = "https://1drv.ms/f/s!AnUgh-ih9wztg7oXVDFlRI-oFLkMbg";
             <div class="collapse" id="collapseExample">
                 <ul class="nav flex-column">
                     <li class="nav-item">
-                        <a href="<?=$urlFolder?>" class="nav-link text-white">Bajada de Araujo</a>
+                        <a href="<?php echo $urlFolder?>" class="nav-link text-white">Bajada de Araujo</a>
                     </li>
                     <li class="nav-item">
-                        <a href="<?=$urlFolder?>" class="nav-link text-white">Gustavo André</a>
+                        <a href="<?php echo $urlFolder?>" class="nav-link text-white">Gustavo André</a>
                     </li>
                     <li class="nav-item">
-                        <a href="<?=$urlFolder?>" class="nav-link text-white">California</a>
+                        <a href="<?php echo $urlFolder?>" class="nav-link text-white">California</a>
                     </li>
                     <li class="nav-item">
-                        <a href="<?=$urlFolder?>" class="nav-link text-white">San Pedro y San Pablo</a>
+                        <a href="<?php echo $urlFolder?>" class="nav-link text-white">San Pedro y San Pablo</a>
                     </li>
                     <li class="nav-item">
-                        <a href="<?=$urlFolder?>" class="nav-link text-white">Natalio Estrella</a>
+                        <a href="<?php echo $urlFolder?>" class="nav-link text-white">Natalio Estrella</a>
                     </li>
                 </ul>
             </div>
