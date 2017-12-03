@@ -1,3 +1,15 @@
+<?php
+/**
+ * Cuadro de Turnos 
+ * PHP version 7
+ * 
+ * @category Class
+ * @package  Cuadro_De_Turnos
+ * @author   Leonardo Araoz <leonardo.araoz.dev@gmail.com>
+ * @license  http://www.gnu.org/copyleft/gpl.html GNU General Public License
+ * @link     http://quintazonaderiego.com.ar
+ */
+?>
 </div>
 	</div>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

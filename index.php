@@ -1,5 +1,15 @@
-
-<?php require "head.php"; ?>
+<?php 
+/**
+ * Cuadro de Turnos 
+ * PHP version 7
+ * 
+ * @category Class
+ * @package  Cuadro_De_Turnos
+ * @author   Leonardo Araoz <leonardo.araoz.dev@gmail.com>
+ * @license  http://www.gnu.org/copyleft/gpl.html GNU General Public License
+ * @link     http://quintazonaderiego.com.ar
+ */
+require "head.php"; ?>
 
 <?php require "side.php"; ?>
 
